@@ -17,7 +17,7 @@ This fix replace your comment count to go with most of central european language
 
 1. Upload `2_4_comment_fix.php` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Place `<?php comments_popup_link_2_4('No comments', '1 Comment', '% Comments', '% Comments(when 2-4)'); ?> ?>` in your templates and translate the strings into your language. For the count between 2 and 4 there is the last string. Remember that function has added _2_4 at the end of its name.
+1. Place `<?php comments_popup_link_2_4('No comments', '1 Comment', '% Comments', '% Comments(when 2-4)'); ?>` in your templates and translate the strings into your language. For the count between 2 and 4 there is the last string. Remember that function has added _2_4 at the end of its name.
 
 == Frequently Asked Questions ==
 
